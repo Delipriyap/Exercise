@@ -1,0 +1,39 @@
+#include<stdio.h>
+void swap(int ptr[10],int temp[10]);
+int main(void)
+{
+int a[10]={4,80,40,21};
+int i,b,final[10];
+	printf("numbers are");
+	for (i=0;i<4;i++)
+		{
+			printf("values are\n%d",a[i]);
+}
+}
+return 0;
+}	                
+		/*	if(a[i+1]<a[i])
+			{		
+			swap(ptr[i],temp[i]);
+		// printf("ascending values are%d\n",final[i]);
+			}
+		}	
+for(i=0;i<4;i++)
+{
+
+printf("ascending values are=%d\n",final[i]);
+}
+return 0;
+}
+void swap(int ptr[10],int temp[10])
+{
+int i;
+for(i=0;i<4;i++)
+{
+
+temp[i]=ptr[i];
+ptr[i]=ptr[i+1];
+ptr[i+1]=temp[i];
+}
+
+}*/
